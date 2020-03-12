@@ -1,14 +1,13 @@
 {
     "name": "fc9/net",
-    "description": "Adds basic support to multilevel network.",
+    "description": "Making it easier to add support the multilevel network.",
     "keywords": [
         "fc9",
-        "net",
         "network",
         "multilevel",
         "multinível"
     ],
-    "homepage": "https://github.com/fc9/net",
+    "homepage": "https://github.com/fc9/base-network",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -31,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Fc9\\Net\\": "src"
+            "Fc9\\Network\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Fc9\\Net\\Tests\\": "tests"
+            "Fc9\\Network\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +48,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Fc9\\Net\\Providers\\NetServiceProvider"
+                "Fc9\\Network\\Providers\\NetworkServiceProvider"
             ],
             "aliases": {
-                "Queue": "Fc9\\Net\\Facades\\Net"
+                "Queue": "Fc9\\Network\\Facades\\Network"
             }
         }
     }
