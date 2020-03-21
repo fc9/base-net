@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Fc9\\Network\\": "src"
+            "Fc9\\Net\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Fc9\\Network\\Tests\\": "tests"
+            "Fc9\\Net\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Fc9\\Network\\Providers\\NetServiceProvider"
+                "Fc9\\Net\\Providers\\NetServiceProvider"
             ],
             "aliases": {
-                "Queue": "Fc9\\Network\\Facades\\Network"
+                "Queue": "Fc9\\Net\\Facades\\Network"
             }
         }
     }
