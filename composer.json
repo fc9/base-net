@@ -21,8 +21,7 @@
         "php": "^7.2",
         "illuminate/support": "^6.0",
         "menarasolutions/geographer-laravel": "^0.2.1",
-        "waavi/sanitizer": "^1.0",
-        "fc9/auth": "^1.0.1"
+        "waavi/sanitizer": "^1.0"
     },
     "require-dev": {
         "orchestra/testbench": "^4.0",
