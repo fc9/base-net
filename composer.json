@@ -19,7 +19,7 @@
     ],
     "require": {
         "php": "^7.2",
-        "illuminate/support": "^7.0",
+        "illuminate/support": "~7.1",
         "menarasolutions/geographer-laravel": "^0.2.1",
         "waavi/sanitizer": "^1.0"
     },
